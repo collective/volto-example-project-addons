@@ -12,6 +12,9 @@
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js"
   },
+  "addons": [
+    "volto-testaddon"
+  ],
   "jest": {
     "transform": {
       "^.+\\.js(x)?$": "babel-jest",
@@ -83,7 +86,8 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "5.3.0"
+    "@plone/volto": "plone/volto#master",
+    "volto-testaddon": "1.0.0"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.2",
