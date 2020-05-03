@@ -1,0 +1,7 @@
+{
+  "volto-testaddon": {
+    "package": "volto-testaddon",
+    "url": "https://github.com/sneridagh/volto-testaddon",
+    "path": "src"
+  }
+}
