@@ -19,12 +19,18 @@ import {
   blocks as defaultBlocks,
 } from '@plone/volto/config';
 
+import { DummyView } from 'volto-testaddon/components';
+
 export const settings = {
   ...defaultSettings,
 };
 
 export const views = {
   ...defaultViews,
+  contentTypesViews: {
+    ...defaultViews.contentTypesViews,
+    Document: DummyView,
+  },
 };
 
 export const widgets = {
