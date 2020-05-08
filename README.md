@@ -31,3 +31,11 @@ start the project:
 ## Setup your own project
 
 Take a look at the changes for how to setup your project to work with add-ons.
+
+### Using a released package
+
+https://github.com/collective/volto-example-project-addons/pull/1
+
+### Using mrs-developer
+
+https://github.com/collective/volto-example-project-addons/pull/2
