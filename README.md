@@ -1,52 +1,33 @@
-## Documentation
+# Volto project with addons example
 
-A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
+This is a Volto project (using Volto 5.x.x) that shows how to deal with addons as
+released packages (ie. released in an npm registry) or locally while developing them.
 
-## Quick Start
+## Branches
 
-Below is a list of commands you will probably find useful.
+Two branches are provided in this repo:
 
-### `yarn start`
+- usingreleasedpackage
+- usingmrsdeveloper
 
-Runs the project in development mode.  
-You can view your application at `http://localhost:3000`
+## Example package
 
-The page will reload if you make edits.
+Both use an example package `volto-testaddon`, which is released:
+https://www.npmjs.com/package/volto-testaddon
 
-### `yarn build`
+and you can find it on github:
+https://github.com/sneridagh/volto-testaddon
 
-Builds the app for production to the build folder.
+It features a view `DummyView` that this project will use to override the `Document` View.
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+## Trying it out (both branches)
 
-### `yarn start:prod`
+Install deps:
+`yarn`
 
-Runs the compiled app in production.
+start the project:
+`yarn start`
 
-You can again view your application at `http://localhost:3000`
+## Setup your own project
 
-### `yarn test`
-
-Runs the test watcher (Jest) in an interactive mode.
-By default, runs tests related to files changed since the last commit.
-
-### `yarn i18n`
-
-Runs the test i18n runner which extracts all the translation strings and
-generates the needed files.
-
-
-### mr_developer
-
-[mr_developer](https://www.npmjs.com/package/mr-developer) is a great tool
-for developing multiple packages at the same time.
-
-mr_developer should work with this project by using the `--config` config option:
-
-```bash
-mrdeveloper --config=jsconfig.json
-```
-
-Volto's latest razzle config will pay attention to your jsconfig.json file
-for any customizations.
+Take a look at the changes for how to setup your project to work with add-ons.
