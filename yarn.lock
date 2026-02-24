@@ -1413,9 +1413,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@plone/volto#master":
+"@plone/volto@5.3.0":
   version "5.3.0"
-  resolved "https://codeload.github.com/plone/volto/tar.gz/097b5dd9fe63dcda1ff48a777b767089a68133ab"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-5.3.0.tgz#6c97535ff46706c1ad518eef68d865b81da140e4"
+  integrity sha512-RzYtkzZf9LVDdneqZmltpBBMKm4xSlcSUTIvJIant5RERke49T3PDfX09BgOpt0Y1+Xj9QYRxasEokuNM0N3pQ==
   dependencies:
     "@babel/core" "7.7.4"
     "@babel/plugin-proposal-decorators" "7.7.4"
@@ -2973,9 +2974,9 @@ bluebird@3.7.2, bluebird@^3.5.1, bluebird@^3.5.5:
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.12.3"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.3.tgz#2cc2c679188eb35b006f2d0d4710bed8437a769e"
+  integrity sha512-fGTi3gxV/23FTYdAoUtLYp6qySe2KE3teyZitipKNRuVYcBkoP/bB3guXN/XVKUe9mxCHXnc9C4ocyz8OmgN0g==
 
 body-parser@1.19.0:
   version "1.19.0"
@@ -15310,11 +15311,6 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
-
-volto-testaddon@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/volto-testaddon/-/volto-testaddon-1.0.0.tgz#1832bd6b89d27eec7ff02316c413cc88c1d5782c"
-  integrity sha512-djZDkPfnivUzaKe+HRSdm8KFu0kzHi/Y90i4y/K+vnDpKsmJUuTLkSaNDEab2zDxs/vavYccg3kJ1C3zb5s8UA==
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"
